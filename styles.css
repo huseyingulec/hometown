@@ -1,0 +1,128 @@
+
+
+body {
+    color: black; 
+    background-size: cover;
+    margin: 0;
+    background: linear-gradient(rgb(27, 104, 104), rgb(1, 54, 78));
+    text-align: center;
+}
+
+/* hero */
+
+#hero {
+    background-image: url("izmir.png");
+    padding: 0 10px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 600px;
+
+}
+
+#title {
+    margin-top: 150px;
+    margin-bottom: 50px ;
+    background-color: coral;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+#subtitle {
+    background-color: coral;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+/*activity */
+
+.activities {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: aliceblue;
+
+}
+
+.act-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    
+}
+
+.act-child {
+    width: 200px;
+
+}
+
+.act-sub-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(236, 6, 56);
+    
+}
+
+.anchor-tag {
+    color: azure;
+}
+
+/* guide */
+
+.guide {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #C8D9EB;
+    color: #443742;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.g-img {
+    width: 250px;
+    border-radius: 5px;
+    border: 6px solid #A0A3AD;
+    margin: 20px;
+}
+
+.g-txt {
+    margin-top: 40px;
+    margin-right: 20px;
+
+}
+
+.g-title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.g-intro {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.g-name {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+}
+
+
