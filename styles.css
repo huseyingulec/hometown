@@ -26,26 +26,26 @@ body {
 }
 
 #title {
-    margin-top: 150px;
-    margin-bottom: 50px ;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
     background-color: coral;
-    padding: 10px 20px;
+    padding: 1rem 3rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 1rem;
 }
 
 #subtitle {
     background-color: coral;
-    padding: 10px 20px;
+    padding: 1rem 3rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 1rem;
 }
 
 /*activity */
 
 .activities {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     color: aliceblue;
 
 }
@@ -53,18 +53,18 @@ body {
 .act-img {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 75px;
+    margin-top: 7rem;
     
 }
 
 .act-child {
-    width: 200px;
+    width: 17rem;
 
 }
 
 .act-sub-img {
-    width: 150px;
-    height: 150px;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
     border: 2px solid rgb(236, 6, 56);
     
@@ -77,8 +77,8 @@ body {
 /* guide */
 
 .guide {
-    width: 500px;
-    height: 400px;
+    width: 30rem;
+    height: 25rem;
     margin: auto;
     display: flex;
     justify-content: space-around;
